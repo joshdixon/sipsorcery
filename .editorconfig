@@ -5,6 +5,10 @@ root = true
 indent_style = space
 end_of_line = crlf
 
+# ReSharper properties
+resharper_braces_for_ifelse = required_for_multiline
+resharper_place_simple_embedded_statement_on_same_line = false
+
 # Code files
 [*.{cs}]
 indent_size = 4
@@ -24,4 +28,4 @@ csharp_preserve_single_line_statements = true
 csharp_preserve_single_line_blocks = true
 
 # Don't allow single line if/else blocks without braces.
-csharp_prefer_braces = true:error 
+csharp_prefer_braces = true:error
